@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Page d'Accueil - Mains Saines ASBL</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2bee2b",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#102210",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111811] dark:text-[#f0f4f0]">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full bg-white/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-solid border-[#f0f4f0] dark:border-[#223322]">
+<div class="max-w-[1280px] mx-auto flex items-center justify-between px-6 py-3">
+<div class="flex items-center gap-4 text-[#111811] dark:text-white">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Mains Saines ASBL</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-center gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#111811] dark:text-[#f0f4f0] text-sm font-medium hover:text-primary transition-colors" href="#">Accueil</a>
+<a class="text-[#111811] dark:text-[#f0f4f0] text-sm font-medium hover:text-primary transition-colors" href="#">À Propos</a>
+<a class="text-[#111811] dark:text-[#f0f4f0] text-sm font-medium hover:text-primary transition-colors" href="#">Nos Actions</a>
+<a class="text-[#111811] dark:text-[#f0f4f0] text-sm font-medium hover:text-primary transition-colors" href="#">Projets</a>
+<a class="text-[#111811] dark:text-[#f0f4f0] text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-[#111811] text-sm font-bold transition-transform active:scale-95">
+<span>Faire un don</span>
+</button>
+<div class="hidden sm:block bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-[#dbe6db]" data-alt="User avatar placeholder" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAfcDQqL2jKNL1NfEgCYmILcPeIY9avBe5_Tmy6lqyZN-vRJW5rebXiHsanfyEQIM0kji_3xminCPDgeBdfYnDbyJbeIA4KuZo9UU-mcB1dXxEjmf_RadnTZqH9F71XBM3oEI6Rqr-EH9jPgbQATpHq9gfGWu7hWFfyJM4G2c4dVzqslah-AxeVUAHRmJoWE_jT6SuUfuug9BboIqbhV4wiE8wfLebA1212tBSVLcqAH6-MABnI-RTv5mX-AEWU1o6lbrWnFyW-6vc");'></div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<!-- Hero Section -->
+<section class="max-w-[1280px] mx-auto px-4 md:px-10 py-5">
+<div class="@container">
+<div class="@[480px]:p-0">
+<div class="flex min-h-[560px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 rounded-xl items-start justify-end px-6 pb-12 @[480px]:px-16" data-alt="Community health workers in Kinshasa organizing a hand washing station" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCB6k0avq9dPW7GhCbWDg6xUwppXXnKuu95TofvHZDOFP1Ge0RwUvdzQVrNHRdcWhpCoWwUTCWRxLjDSaCeUKC-KetGgpOh9cjdRl8rycgy7hn8bnUFg-F1qKQ9UIhuk3X3oxAYxeFNxzqLkr2jb_uE659owSgo09rksevckuLIE0t_xjRaYLEXP1oPxWZmHmnYEJcpN733Upc7YtqFhAGWw9ACZYoygtOD0vHMSo1GO06cLE6Ue6Krg-In58auMx9TQLfp1hyVxNc");'>
+<div class="flex flex-col gap-4 text-left max-w-[700px]">
+<h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] @[480px]:text-6xl">
+                                    Pour une communauté en bonne santé
+                                </h1>
+<p class="text-white/90 text-lg font-normal leading-relaxed @[480px]:text-xl">
+                                    Mains Saines ASBL œuvre pour l'hygiène et la prévention des maladies au cœur de Kinshasa pour un avenir plus sain et durable.
+                                </p>
+</div>
+<div class="flex-wrap gap-4 flex mt-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-14 px-6 bg-primary text-[#111811] text-base font-bold tracking-[0.015em] hover:brightness-110 transition-all">
+<span>Faire un don maintenant</span>
+</button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-14 px-6 bg-white text-[#111811] text-base font-bold tracking-[0.015em] hover:bg-gray-100 transition-all">
+<span>Nous contacter</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="max-w-[1280px] mx-auto px-4 md:px-10 py-8">
+<div class="flex flex-wrap gap-4">
+<div class="flex min-w-[200px] flex-1 flex-col gap-2 rounded-xl p-8 border border-[#dbe6db] bg-white dark:bg-background-dark dark:border-[#223322]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">groups</span>
+<p class="text-[#111811] dark:text-[#f0f4f0] text-base font-medium">Personnes sensibilisées</p>
+</div>
+<p class="text-[#111811] dark:text-white tracking-light text-4xl font-black leading-tight">10,000+</p>
+<p class="text-[#078823] text-sm font-semibold">+15% cette année</p>
+</div>
+<div class="flex min-w-[200px] flex-1 flex-col gap-2 rounded-xl p-8 border border-[#dbe6db] bg-white dark:bg-background-dark dark:border-[#223322]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">school</span>
+<p class="text-[#111811] dark:text-[#f0f4f0] text-base font-medium">Écoles équipées</p>
+</div>
+<p class="text-[#111811] dark:text-white tracking-light text-4xl font-black leading-tight">50+</p>
+<p class="text-[#078823] text-sm font-semibold">+10% de couverture</p>
+</div>
+<div class="flex min-w-[200px] flex-1 flex-col gap-2 rounded-xl p-8 border border-[#dbe6db] bg-white dark:bg-background-dark dark:border-[#223322]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">task_alt</span>
+<p class="text-[#111811] dark:text-[#f0f4f0] text-base font-medium">Projets réalisés</p>
+</div>
+<p class="text-[#111811] dark:text-white tracking-light text-4xl font-black leading-tight">120+</p>
+<p class="text-[#078823] text-sm font-semibold">Impact local direct</p>
+</div>
+</div>
+</section>
+<!-- Mission Feature Section -->
+<section class="max-w-[1280px] mx-auto px-4 md:px-10 py-16">
+<div class="flex flex-col gap-10 @container">
+<div class="flex flex-col gap-4 text-center md:text-left">
+<h2 class="text-[#111811] dark:text-white tracking-light text-3xl font-black leading-tight @[480px]:text-4xl">
+                            Notre Mission au Quotidien
+                        </h2>
+<p class="text-[#618961] dark:text-[#a0c0a0] text-lg font-normal leading-relaxed max-w-[800px]">
+                            Nous nous engageons à améliorer la santé publique en République Démocratique du Congo à travers des actions concrètes de sensibilisation, d'assainissement et d'éducation.
+                        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-4 rounded-xl border border-[#dbe6db] dark:border-[#223322] bg-white dark:bg-background-dark p-6 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">record_voice_over</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#111811] dark:text-white text-xl font-bold">Sensibilisation</h3>
+<p class="text-[#618961] dark:text-[#a0c0a0] text-sm leading-relaxed">Éduquer les populations sur les gestes barrières, l'hygiène de base et la prévention des maladies hydriques.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-[#dbe6db] dark:border-[#223322] bg-white dark:bg-background-dark p-6 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">plumbing</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#111811] dark:text-white text-xl font-bold">Infrastructures</h3>
+<p class="text-[#618961] dark:text-[#a0c0a0] text-sm leading-relaxed">Construction et réhabilitation de points d'eau et de latrines modernes dans les écoles et centres de santé.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-[#dbe6db] dark:border-[#223322] bg-white dark:bg-background-dark p-6 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">sanitizer</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#111811] dark:text-white text-xl font-bold">Distribution de Kits</h3>
+<p class="text-[#618961] dark:text-[#a0c0a0] text-sm leading-relaxed">Fourniture de savons, gels hydroalcooliques et matériel d'entretien aux familles les plus vulnérables.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section Header for Projects -->
+<section class="max-w-[1280px] mx-auto px-4 md:px-10 pt-10">
+<div class="flex justify-between items-end border-b border-[#f0f4f0] pb-6">
+<div>
+<h2 class="text-[#111811] dark:text-white text-3xl font-bold leading-tight tracking-[-0.015em]">Nos Projets en Cours</h2>
+<p class="text-[#618961] dark:text-[#a0c0a0] mt-1">Découvrez comment nous transformons les vies à Kinshasa.</p>
+</div>
+<button class="text-primary font-bold hover:underline flex items-center gap-1">
+                        Voir tous les projets <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</section>
+<!-- Projects Grid (Custom Component) -->
+<section class="max-w-[1280px] mx-auto px-4 md:px-10 py-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Project Card 1 -->
+<div class="flex flex-col overflow-hidden rounded-xl bg-white dark:bg-background-dark border border-[#dbe6db] dark:border-[#223322]">
+<div class="h-48 bg-cover bg-center" data-alt="School children washing hands in Kinshasa" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCovbkoyK0O_xqNewrXVUEUvFDXL4659TKhkyKcXPdv9GeKjiH9Yyveb1mCxDAhb5CsUqTIIaa6GMWFDcfU572H0iice0ER6xMl-UxEw9Sv9x_kQGIlJPto4kYeRM-b86ee7-gFUfXe3ia5eRSB1QMbxMshIT_ePUKtfRbMN_8U2WLz-Ix7m3WcOsGJ-pV0jAUP9_b8IagDJtEQ3iq8M94WFhh8ip66kg-Me8fBP7z4OknMQkYbJwxri7Sv7w4w3INyf8buyBCoTAs');"></div>
+<div class="p-6 flex flex-col gap-3">
+<span class="text-xs font-bold text-primary uppercase tracking-wider">Eau &amp; Hygiène</span>
+<h3 class="text-xl font-bold dark:text-white">Opération Mains Propres</h3>
+<p class="text-sm text-[#618961] dark:text-[#a0c0a0]">Installation de 20 stations de lavage de mains dans les marchés publics de la Gombe.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-4">
+<div class="bg-primary h-2 rounded-full" style="width: 75%"></div>
+</div>
+<span class="text-xs font-bold dark:text-white">75%</span>
+</div>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="flex flex-col overflow-hidden rounded-xl bg-white dark:bg-background-dark border border-[#dbe6db] dark:border-[#223322]">
+<div class="h-48 bg-cover bg-center" data-alt="Clean water tap with flowing water" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBdZVnPTO4-wnV_4e1N9Qy2w-MhT2GM6WUh9rgDJw9BV974aWFLvFI_7q1yjAuOhkoLizWmYN64H5ASAU2X-18F8ZwKt8V8Y5T8xGAFobsATMmRi6jv1r9NRrA8gabiCTrnebIJDRll3e7_gJ9FQZF3YZZoMfADCm-e-RbswBZkRsifrgYbwol5iV82FE1K3MbbzKHnqjWBylag8Scq2uB_LOVN8_Ggf95_Tk8PGTjoFMGT4l-BKtH44mgjf5Yg_btBJa2MgQURR1o');"></div>
+<div class="p-6 flex flex-col gap-3">
+<span class="text-xs font-bold text-primary uppercase tracking-wider">Infrastructure</span>
+<h3 class="text-xl font-bold dark:text-white">Puits Communautaire Lemba</h3>
+<p class="text-sm text-[#618961] dark:text-[#a0c0a0]">Forage d'un nouveau puits pour fournir de l'eau potable à plus de 500 familles locales.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-4">
+<div class="bg-primary h-2 rounded-full" style="width: 40%"></div>
+</div>
+<span class="text-xs font-bold dark:text-white">40%</span>
+</div>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="flex flex-col overflow-hidden rounded-xl bg-white dark:bg-background-dark border border-[#dbe6db] dark:border-[#223322]">
+<div class="h-48 bg-cover bg-center" data-alt="Health educator talking to a group" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBCBNvGRqwGqfnNSxNXV5uj01njwUeYIvmEfeEg8eGKMEGmzBKQWeeROI62JYWRHZgpYxu8eI1-nWMYU9JfJvhHqLT4CSphTgpH5h9HsQBPrwRa6mZSPJCTSy-HWEYlRmW71Q_iLf6c90evR7atmfic0b8ryX0JaXmgK-IEeU2LlnJ6WGXPPsZN8U7jI1qvvXZv6O7lf719AUjNjb7kGNut1obNjXNXhpEEe44TQosYaNrxbtpcd8NnkKrjFGD_--1TkyHExliAyQA');"></div>
+<div class="p-6 flex flex-col gap-3">
+<span class="text-xs font-bold text-primary uppercase tracking-wider">Éducation</span>
+<h3 class="text-xl font-bold dark:text-white">Écoles Saines</h3>
+<p class="text-sm text-[#618961] dark:text-[#a0c0a0]">Programme de formation pour les enseignants sur les protocoles sanitaires post-pandémie.</p>
+<div class="mt-4 flex items-center justify-between">
+<div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-4">
+<div class="bg-primary h-2 rounded-full" style="width: 90%"></div>
+</div>
+<span class="text-xs font-bold dark:text-white">90%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- CTA Banner -->
+<section class="bg-background-dark py-16 px-4 md:px-10 text-center text-white">
+<div class="max-w-[800px] mx-auto flex flex-col gap-8">
+<h2 class="text-4xl font-black">Faites partie du changement</h2>
+<p class="text-lg text-white/80">Votre contribution peut sauver des vies. Aidez-nous à fournir un accès équitable à l'hygiène et à la santé pour tous les Kinois.</p>
+<div class="flex justify-center gap-4">
+<button class="bg-primary text-[#111811] px-8 py-4 rounded-lg font-bold text-lg hover:brightness-110 transition-all">Soutenir un projet</button>
+<button class="bg-transparent border border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-all">Devenir Bénévole</button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-white dark:bg-background-dark border-t border-[#f0f4f0] dark:border-[#223322] py-12 px-10">
+<div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z" fill="currentColor" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold dark:text-white">Mains Saines ASBL</h2>
+</div>
+<p class="text-sm text-[#618961] dark:text-[#a0c0a0]">Organisation non gouvernementale dédiée à l'amélioration de la santé publique en RDC.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold dark:text-white">Lien Rapides</h4>
+<nav class="flex flex-col gap-2 text-sm text-[#618961] dark:text-[#a0c0a0]">
+<a class="hover:text-primary" href="#">Accueil</a>
+<a class="hover:text-primary" href="#">À Propos</a>
+<a class="hover:text-primary" href="#">Nos Actions</a>
+<a class="hover:text-primary" href="#">Impact</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold dark:text-white">Contact</h4>
+<p class="text-sm text-[#618961] dark:text-[#a0c0a0]">Kinshasa, RD Congo<br/>Boulevard du 30 Juin<br/>contact@mainssaines.org</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold dark:text-white">Suivez-nous</h4>
+<div class="flex gap-4">
+<a class="text-primary hover:opacity-80" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-primary hover:opacity-80" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+<a class="text-primary hover:opacity-80" href="#"><span class="material-symbols-outlined">forum</span></a>
+</div>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto mt-12 pt-8 border-t border-[#f0f4f0] dark:border-[#223322] text-center text-xs text-[#618961] dark:text-[#a0c0a0]">
+                © 2024 Mains Saines ASBL. Tous droits réservés.
+            </div>
+</footer>
+<!-- Floating WhatsApp Button -->
+<a class="fixed bottom-6 right-6 flex items-center gap-3 bg-[#25D366] text-white px-4 py-3 rounded-full shadow-2xl hover:scale-105 transition-transform z-50" href="https://wa.me/243000000000" target="_blank">
+<span class="material-symbols-outlined font-bold">chat</span>
+<span class="font-bold text-sm">Discuter sur WhatsApp</span>
+</a>
+</div>
+</body></html>
